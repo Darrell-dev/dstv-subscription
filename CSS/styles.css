@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 20px;
+}
+.dstv {
+    display: flex;
+    margin-top: 30px;
+}
+.logo {
+    background-color: rgb(46, 145, 231);
+    color: #fff;
+    width: 70px;
+    text-align: center;
+    line-height: 4;
+    font-size: 20px;
+}
+.subcription {
+    margin-left: 10px;
+}
+.subcription > h2 {
+    color: rgb(69, 116, 147);
+}
+.smartcard {
+    display: flex;
+    margin-bottom: 10px;
+}
+.smartcard > p:last-child{
+    margin-left: 35px;
+    color: rgb(195, 33, 33);
+}
+.select{
+    margin-top: 30px;
+}
+.select > input {
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+    background-color: aliceblue;
+    border: 0px;
+}
+.input2{
+    margin-top: 30px;
+    display: flex;
+}
+.select-what > p {
+    margin-bottom: 10px;
+}
+.select-what > input {
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(228, 240, 249);
+    border: 0px;
+}
+.amount {
+    margin-left: 30px;
+}
+.amount > p {
+    margin-bottom: 10px;
+}
+.amount > input {
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+}
+
+.input3{
+    margin-top: 30px;
+    display: flex;
+}
+.phone-number > p {
+    margin-bottom: 10px;
+}
+.phone-number> input {
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.email {
+    margin-left: 30px;
+}
+.email > p {
+    margin-bottom: 10px;
+}
+.email> input {
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+}
+
+.Cancel {
+    width: 85px;
+    border-color: red;
+    margin-top: 40px;
+    height: 40px;
+}
+.Continue {
+    width: 85px;
+    background-color:rgb(152, 205, 152);
+    margin-top: 40px;
+    height: 40px;
+    border: 0px;
+    color: #fff;
+}
+
+/* media query for mobile screen */
+@media screen and (max-width:767px) {
+    .input2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .amount {
+        margin: 20px 0px 0px 0px;
+    }
+    .input3{
+        display: flex;
+        flex-direction: column;
+    }
+    .email {
+        margin: 20px 0px 0px 0px;
+    }
+    input {
+        width: 100%!important;
+    }
+}
