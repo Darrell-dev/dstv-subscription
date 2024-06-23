@@ -10,14 +10,6 @@ body {
     display: flex;
     margin-top: 30px;
 }
-.logo {
-    background-color: rgb(46, 145, 231);
-    color: #fff;
-    width: 70px;
-    text-align: center;
-    line-height: 4;
-    font-size: 20px;
-}
 .subcription {
     margin-left: 10px;
 }
@@ -48,7 +40,7 @@ body {
 .select-what > p {
     margin-bottom: 10px;
 }
-.select-what > input {
+select {
     width: 400px;
     padding: 10px 10px 10px 10px;
     background-color: rgb(228, 240, 249);
@@ -119,6 +111,9 @@ body {
         margin: 20px 0px 0px 0px;
     }
     input {
+        width: 100%!important;
+    }
+    select {
         width: 100%!important;
     }
 }
